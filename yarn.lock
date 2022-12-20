@@ -1237,6 +1237,11 @@
     "@vue/compiler-dom" "3.2.1"
     "@vue/shared" "3.2.1"
 
+"@vue/devtools-api@^6.4.5":
+  "integrity" "sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ=="
+  "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.4.5.tgz"
+  "version" "6.4.5"
+
 "@vue/reactivity@3.2.1":
   "integrity" "sha512-4Lja2KmyiKvuraDed6dXK2A6+r/7x7xGDA7vVR2Aqc8hQVu0+FWeVX+IBfiVOSpbZXFlHLNmCBFkbuWLQSlgxg=="
   "resolved" "https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.2.1.tgz"
@@ -2664,7 +2669,14 @@
   "resolved" "https://registry.npmjs.org/vscode-web-custom-data/-/vscode-web-custom-data-0.3.4.tgz"
   "version" "0.3.4"
 
-"vue@^3.0.5":
+"vue-router@^4.1.6":
+  "integrity" "sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ=="
+  "resolved" "https://registry.npmjs.org/vue-router/-/vue-router-4.1.6.tgz"
+  "version" "4.1.6"
+  dependencies:
+    "@vue/devtools-api" "^6.4.5"
+
+"vue@^3.0.5", "vue@^3.2.0":
   "integrity" "sha512-0jhXluF5mzTAK5bXw/8yq4McvsI8HwEWI4cnQwJeN8NYGRbwh9wwuE4FNv1Kej9pxBB5ajTNsWr0M6DPs5EJZg=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.1.tgz"
   "version" "3.2.1"
